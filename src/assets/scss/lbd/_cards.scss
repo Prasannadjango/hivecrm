@@ -1,22 +1,9 @@
 .card{
-    border-radius: $border-radius-base;
+    border-radius: 10px;
     background-color: $white-color;
     margin-bottom: 30px;
 
-    .card-image{
-        width: 100%;
-        overflow: hidden;
-        height: 260px;
-        border-radius: $border-radius-base $border-radius-base 0 0;
-        position: relative;
-        -webkit-transform-style: preserve-3d;
-        -moz-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-
-        img {
-            width: 100%;
-        }
-    }
+   
     .filter{
         position: absolute;
         z-index: 2;
@@ -72,7 +59,7 @@
     .card-title{
         margin: $none;
         color: $black-color;
-        font-weight: $font-weight-light;
+      
     }
     .avatar{
         width: 30px;

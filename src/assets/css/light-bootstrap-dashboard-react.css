@@ -57,7 +57,7 @@ td,
 button.close {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "Roboto","Helvetica Neue",Arial,sans-serif;
+  font-family: "../fonts/heebo/Poppins-Regular.ttf";
   font-weight: 400; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
@@ -273,7 +273,7 @@ body > .navbar-collapse {
       margin: 10px 10px;
       color: #FFFFFF;
       line-height: 20px;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      font-family: "../fonts/heebo/Poppins-Regular.ttf"}
     .sidebar .logo .simple-text,
     body > .navbar-collapse .logo .simple-text {
       text-transform: uppercase;
@@ -380,7 +380,7 @@ body > .navbar-collapse {
       margin: 10px 10px;
       color: #FFFFFF;
       line-height: 20px;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      font-family:"../fonts/heebo/Poppins-Regular.ttf" }
     .sidebar .logo .simple-text,
     body > .navbar-collapse .logo .simple-text {
       text-transform: uppercase;
@@ -3390,18 +3390,24 @@ License - nucleoapp.com/license/
 
 -------------------------------- */
 @font-face {
-  font-family: 'nucleo-icons';
-  src: url("~assets/fonts/nucleo-icons.eot");
-  src: url("~assets/fonts/nucleo-icons.eot") format("embedded-opentype"), url("~assets/fonts/nucleo-icons.woff2") format("woff2"), url("~assets/fonts/nucleo-icons.woff") format("woff"), url("~assets/fonts/nucleo-icons.ttf") format("truetype"), url("~assets/fonts/nucleo-icons.svg") format("svg");
+  font-family:'Pagefont';
+  src: url("../fonts/heebo/Poppins-Regular.ttf");
+  /* url("../fonts/heebo/Heebo-Regular.otf"),
+  url("../fonts/heebo/Heebo-Regular.woff"),
+  url("../fonts/heebo/Heebo-Regular.woff2"); */
+ 
   font-weight: normal;
   font-style: normal; }
 
 /*------------------------
 	base class definition
 -------------------------*/
+*{
+  font-family:'Pagefont';
+}
 .nc-icon {
   display: inline-block;
-  font: normal normal normal 14px/1 'nucleo-icons';
+  font: normal normal normal 14px/1 'Popin';
   font-size: inherit;
   speak: none;
   text-transform: none;

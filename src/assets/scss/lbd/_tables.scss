@@ -22,15 +22,18 @@
    > tfoot > tr > td{
        padding: 12px 8px;
        vertical-align: middle;
+       color: grey;
+       font-size: 16px;
+       text-transform: capitalize;
    }
 
     > thead > tr > th{
         border-bottom-width: 1px;
-        font-size: $font-size-small;
-        text-transform: uppercase;
-        color: $dark-gray;
+        font-size: 18px;
+        text-transform: capitalize;
+        color: white;
         font-weight: $font-weight-normal;
-        padding-bottom: 5px;
+        padding: 10px;
         border-top: none !important;
         border-bottom: none;
         text-align: left !important;

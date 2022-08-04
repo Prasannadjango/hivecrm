@@ -1,5 +1,5 @@
 /*           Font Smoothing      */
-body,
+
 h1, .h1, 
 h2, .h2, 
 h3, .h3, 
@@ -17,14 +17,12 @@ td,
 button.close{
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Roboto","Helvetica Neue",Arial,sans-serif;
-    font-weight: $font-weight-normal;
+  
+    
+
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4{
-    font-weight: $font-weight-light;
-    margin: $margin-large-vertical 0 $margin-base-vertical;
-}
+
 
 h1, .h1 {
     font-size: $font-size-h1;
@@ -34,20 +32,20 @@ h2, .h2{
 }
 h3, .h3{
     font-size: $font-size-h3;
-    margin: 20px 0 10px;
+  
 }
 h4, .h4{
-    font-size: $font-size-h4;
+   
     line-height: 30px;
 }
 h5, .h5 {
     font-size: $font-size-h5;
-    margin-bottom: 15px;
+   
 }
 h6, .h6{
     font-size: $font-size-h6;
     font-weight: $font-weight-bold;
-    text-transform: uppercase;
+   
 }
 p{
     font-size: $font-paragraph;
